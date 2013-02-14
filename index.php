@@ -1,9 +1,9 @@
 <?php include("header.php") ?>
-    <title>Título da Página</title>
+<?php include("topo.php") ?>
+    <title>NAHUM</title>
   </head>
   <body>
-    <div id="header">
-    </div>
+    
     <div id="content">
     </div>
     <div id="navigation">
