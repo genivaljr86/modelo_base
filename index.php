@@ -1,6 +1,6 @@
 <?php include("header.php") ?>
 <?php include("topo.php") ?>
-    <title>NAHUM</title>
+    <title><?php echo $core_nome; ?></title>
   </head>
   <body>
     

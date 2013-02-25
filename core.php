@@ -2,15 +2,15 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "nahum";
+$core_nome     = "";
 //Descrição do Site
-$core_desc     ="Nahum engenharia";
+$core_desc     ="";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords ="engenharia, nahum, belem, para"; 
+$core_keywords =""; 
 //Pasta do projeto
-$core_pasta    ="nahum";
+$core_pasta    ="";
 //E-mail para recebimento das mensagens via site
-$core_email    ="web@gmail.com.br"; 
+$core_email    =""; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){
