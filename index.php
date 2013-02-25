@@ -1,5 +1,4 @@
 <?php include("header.php") ?>
-<?php include("topo.php") ?>
     <title><?php echo $core_nome; ?></title>
   </head>
   <body>
