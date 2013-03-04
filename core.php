@@ -22,7 +22,7 @@ if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta =
 function servidor(){
 	$core_servidor = $_SERVER['SERVER_NAME'];
 	global $core_pasta;
-	if($_SERVER['SERVER_NAME']=="localhost" || $_SERVER['SERVER_NAME']=="127.0.0.1"){
+	if($_SERVER['SERVER_NAME']=="localhost" || $_SERVER['SERVER_NAME']=="127.0.0.1" || similar_text($_SERVER['SERVER_NAME'],"192.168.0.100")>=10){
 		echo "http://".$core_servidor."/".$core_pasta."/";
 		}
 	else{
